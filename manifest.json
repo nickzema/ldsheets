@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Lion Dragon Sheet",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Nick Zema",
   "description": "A form-fillable character sheet for the Lion & Dragon RPG.",
   
@@ -13,6 +13,8 @@
   
   "permissions": [
     {
-autoplay]
+      "name": "autoplay", 
+      "reason": "Allows the sheet to be viewed correctly within Owlbear Rodeo."
     }
+  ]
 }
