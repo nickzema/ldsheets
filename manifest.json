@@ -13,8 +13,7 @@
   
   "permissions": [
     {
-      "name": "autoplay", // SWITCHED to an approved term to satisfy the strict list
-      "reason": "Allows the sheet to be viewed correctly within Owlbear Rodeo."
+autoplay
     }
   ]
 }
