@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Lion Dragon Sheet",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "author": "Nick Zema",
   "description": "A form-fillable character sheet for the Lion & Dragon RPG.",
   
@@ -16,11 +16,5 @@
       "name": "ALLOW_FULLSCREEN",
       "reason": "Allows the character sheet to be viewed in full-screen popout mode."
     }
-  ],
-  "mimeType": "text/html",
-  "url": "https://nickzema.github.io/ldsheets/index.html",
-  "shortcut": "L",
-  "area": "toolbar",
-  "command": "tool",
-  "target": "popout"
+  ]
 }
