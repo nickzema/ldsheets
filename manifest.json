@@ -1,10 +1,15 @@
 {
   "manifest_version": 2,
   "name": "Lion & Dragon Sheet",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Custom User",
   "description": "A form-fillable character sheet for the Lion & Dragon RPG.",
-  "permissions": ["ALLOW_FULLSCREEN"],
+  
+  "action": {
+    "title": "L&D Character Sheet",
+    "popover": "https://nickzema.github.io/ldsheets/index.html"
+  },
+  
   "tools": [
     {
       "name": "L&D Character Sheet",
@@ -15,9 +20,7 @@
       "shortcut": "L",
       "area": "toolbar",
       "command": "tool",
-      "target": "popout",
-      "title": "L&D Character Sheet",
-      "popover": "https://nickzema.github.io/ldsheets/index.html"
+      "target": "popout"
     }
   ]
 }
